@@ -1,0 +1,106 @@
+body {
+	padding-top: 60px;
+}
+
+div#json-container{
+	margin: 10px 0;
+	background-color: #eeeeee;
+	padding: 5px 0;
+	display: table;
+	width:100%;
+}
+
+.container-20{
+	margin:20px;
+}
+
+.node circle{
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.link{
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.base{
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.depend{
+  fill: none;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+
+.cursor-n-resize{
+	cursor: n-resize;
+}
+
+.cursor-e-resize{
+	cursor: e-resize;
+}
+
+.axis text {
+  font-size: 10px;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+/*  shape-rendering: crispEdges;*/
+}
+
+/*Styles for differenct task status*/
+rect.children{
+	fill: #33b5e5;
+}
+
+rect.critical{
+	fill: #CC0000;
+}
+
+rect.parent{
+	fill: lightblue;
+}
+
+.opacity50{
+	opacity: 0.5;
+}
+
+.hidden{
+	display: none;
+}
+
+.no-strock{
+  stroke: none;
+  stroke-width: 0px;
+}
+.strock{
+  stroke: white;
+  stroke-width: 2;
+}
+
+line.draggable-bar-right, line.draggable-bar-left{
+	stroke: #ccc;
+	stroke-width: 2px;
+	opacity: 0;
+	cursor: e-resize;
+}
+
+.notification rect{
+	stroke: #ffbb33;
+	stroke-width: 1px;
+	fill:white;
+}
+
+.notification text{
+	font-size: 10px;
+}
